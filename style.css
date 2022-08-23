@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6357FF;
+  /* height: 80vh; */
+}
+.top-left {
+  padding-left: 100px;
+  color: #fff;
+  margin: 0;
+  width: 45%;
+}
+.top-left p {
+  font-family: monospace;
+  text-transform: uppercase;
+  margin: 0;
+}
+.top-left h1 {
+  font-weight: bold;
+  font-size: 66px;
+  margin-bottom: 30px;
+}
+.top-left .top-left-text {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 50px;
+  font-family: sans-serif;
+}
+.top-left button {
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px 44px;
+  color: #6357FF;
+}
+.top-img {
+  position: relative;
+  /* height: 80vh; */
+  width: 800px;
+  background-color: red;
+}
+.top-img-icons {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #6357FF;
+  padding: 17px 42px;
+}
+.top-img-icons i {
+  margin-right: 35px;
+  font-size: 20px;
+  color: #fff;
+}
+.top-img-icons i:last-child {
+  margin-right: 0;
+}
+.center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.center-left h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.center-left-title {
+  margin: 0;
+  font-family: monospace;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.center-left {
+  color: #fff;
+  background-color: #555;
+  padding-left: 100px;
+  padding-top: 70px;
+  width: 60%;
+  padding-bottom: 70px;
+}
+.center-left-text {
+  margin-right: 250px;
+}
+.center-right {
+  width: 800px;
+  transform: translateX(-100px);
+}
+.bottom {
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-bottom: 100px;
+}
+.bottom-left {
+  padding-top: 60px;
+}
+.bottom-left h4 {
+  text-transform: uppercase;
+  font-family: monospace;
+  color: #6357FF;
+  font-weight: bold;
+}
+.bottom-icons div div i {
+  font-size: 40px;
+  color: #fff;
+  padding: 6px;
+  background-color: #6357FF;
+}
+.bottom-icons-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
+.bottom-icons-text {
+  color: #222;
+}
+.bottom-left h1 {
+  font-size: 65px;
+  font-weight: bold;
+}
+.bottom-icons div {
+  width: 65%;
+}
+.bottom-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.bottom-right {
+  background-color: #6357FF;
+  width: 75%;
+  position: relative;
+  /* padding: 20px; */
+}
+.bottom-img {
+  position: absolute;
+  top: 14%;
+  left: -20%;
+}
